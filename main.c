@@ -4,8 +4,11 @@
 int main()
 {
     printf("Enter the number of dollars\n");
-    long long a;
+  int a;
+   float s;
     scanf("%x",&a);
-    printf("%x dollars = %x Egyptian pounds",a,a*16);
+    s=a*16;
+    printf("%x dollars = ",a);
+    printf("%f Egyptian pounds",s);
     return 0;
 }
